@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>EnesLearn AI Dil Asistanı</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <h1>EnesLearn AI Dil Asistanı</h1>
+    </div>
+    <p class="subtitle">Ücretsiz, kayıt gerektirmeyen yapay zekâ destekli sohbet</p>
+  </header>
+
+  <main>
+    <section class="chat-section">
+      <div id="chat-box" class="chat-box">
+      </div>
+      <form id="chat-form" class="chat-form">
+        <input
+          type="text"
+          id="user-input"
+          placeholder="Sorunuzu buraya yazın (İngilizce/Herhangi Dil)..."
+          autocomplete="off"
+          required
+        />
+        <button type="submit">Gönder</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 EnesLearn. Tüm Hakları Saklıdır.</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script src="scripts/hf-chat.js"></script>
+</body>
+</html>
